@@ -2,7 +2,7 @@ pipeline {
   agent any
   tools {
     // Define Maven tool installation
-    maven 'Maven'
+    maven 'maven'
   }
   stages {
     stage("SCM Checkout") {
